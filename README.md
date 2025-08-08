@@ -19,6 +19,9 @@ Currently DGL-KE support three tasks:
   * Inference, reads the pre-trained embeddings and do the 
   entities/relations linkage predicting inference tasks using `dglke_predict` or do the embedding similarity  inference tasks using `dglke_emb_sim`.
 
+### Note
+If you just want to train a KGE model using TransE, DistMult, RotatE, please goto https://github.com/awslabs/graphstorm.
+
 ### A Quick Start
 
 To install the latest version of DGL-KE run:
